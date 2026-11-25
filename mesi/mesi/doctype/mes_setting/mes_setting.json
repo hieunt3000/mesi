@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-11-25 09:09:22.870318",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "mes_url",
+  "account",
+  "password",
+  "timeout",
+  "column_break_xmwv",
+  "access_token",
+  "refresh_token",
+  "last_connect",
+  "section_break_dbly",
+  "test_connect",
+  "column_break_vqks",
+  "get_connection",
+  "column_break_uzdy",
+  "column_break_gtul",
+  "column_break_cdke"
+ ],
+ "fields": [
+  {
+   "fieldname": "mes_url",
+   "fieldtype": "Data",
+   "label": "Mes Url"
+  },
+  {
+   "fieldname": "column_break_xmwv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "access_token",
+   "fieldtype": "Small Text",
+   "label": "Access Token",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_dbly",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "test_connect",
+   "fieldtype": "Button",
+   "label": "Test Connect"
+  },
+  {
+   "fieldname": "column_break_vqks",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_uzdy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "get_connection",
+   "fieldtype": "Button",
+   "label": "Get Connection"
+  },
+  {
+   "fieldname": "account",
+   "fieldtype": "Data",
+   "label": "Account"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "label": "Password"
+  },
+  {
+   "default": "30",
+   "fieldname": "timeout",
+   "fieldtype": "Int",
+   "label": "Timeout"
+  },
+  {
+   "fieldname": "refresh_token",
+   "fieldtype": "Small Text",
+   "label": "Refresh Token",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_gtul",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "last_connect",
+   "fieldtype": "Datetime",
+   "label": "Last Connect",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_cdke",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-11-25 09:22:51.955486",
+ "modified_by": "Administrator",
+ "module": "Mesi",
+ "name": "Mes Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
